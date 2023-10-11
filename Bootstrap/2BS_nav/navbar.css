@@ -1,0 +1,38 @@
+
+body{
+    background-color: black;
+}
+
+nav{
+    height:70px;
+}
+.navbar{
+    background-color: black;
+}
+
+li a {
+    color:white!important;
+    font-size:20px;
+   
+}
+li a:hover{
+    color:indigo !important;
+    background-color: lightgray;
+    
+}
+.navbar-toggler{
+    background-color: darkgrey;
+}
+
+.nav-link {
+    padding:20px;
+}
+
+@media (max-width:600px){
+    nav{
+        height:auto;
+    }
+    .nav-link {
+        padding:10px;
+    }
+}
